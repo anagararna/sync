@@ -1,0 +1,32 @@
+.img-logo {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.navbar-nav {
+    margin-top: 40px;
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+nav-link a:hover {
+    color: #FF556E;
+}
+
+.nav-button {
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+.download-1 {
+    text-decoration: none;
+    border: 2px solid #FF556E;
+    border-radius: 25px;
+    padding: 10%;
+    color: #FF556E;
+    font-weight: bold;
+}
