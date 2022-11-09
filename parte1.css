@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .img-logo {
     width: 100px;
     margin-top: 30px;
@@ -92,3 +96,61 @@ nav-link a:hover {
     margin-top: 120px;
     margin-left: 350px;
 }
+
+.img-iconos {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.img-grupo {
+    width: 90px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(169, 126, 235, 0.3)
+}
+
+.img-html {
+    width: 90px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(27, 202, 148, 0.3)
+    
+}
+
+.img-configuraciones {
+    width: 90px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(255, 85, 110, 0.3)
+    
+}
+
+.img-charla {
+    width: 90px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(255, 180, 15, 0.3)
+    
+}
+
+.text-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: grey;
+}
+
+/* .p-identify {
+    margin-top: 10px;
+    margin-right: 170px;
+}
+
+.p-situation {
+    margin-top: 10px;
+    margin-right: 410px;
+} */
