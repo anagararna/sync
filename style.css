@@ -1,0 +1,157 @@
+#abajo {
+    background-color: #E9EFF7 ;
+    margin-left: 0;
+    
+}
+.desc {
+    color: gray;
+}
+.listaord{
+    color: gray;
+    list-style-type: square;
+}
+.tercero {
+    background-color: #E9EFF7 ; 
+}
+.btn1:hover{
+   background-color: #A97EEB;
+   color: white;
+}
+.btn1{
+    color: gray;
+    background-color: white;
+    border: none;
+    
+}
+.btn2:hover{
+    background-color: #A97EEB;
+    color: white;
+}
+.btn2{
+    color: gray;
+    background-color: white;
+    border: none;
+}
+.btn3:hover{
+    background-color: #A97EEB;
+    color: white;
+ }
+.btn3{
+    color: gray;
+    background-color: white;
+    border: none;
+}
+.btn4{
+    color: white;
+    background-color: #FF556E;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 0;
+}
+.btn4:before {
+    content: '';
+    background: linear-gradient(45deg, #7486cd, #e4dcd6, #a7bbd6, #3dba9d, #00ffd5, #9b51b6, #915acc, #9e324b, #ac6067);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn4:active {
+    color: white
+}
+
+.btn4:active:after {
+    background: transparent;
+}
+
+.btn4:before {
+    opacity: 1;
+}
+
+.btn4:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+#img-media{
+    width:auto;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#img-calendar:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #A97EEB;
+-webkit-box-shadow: 0px 0px 15px 15px #A97EEB;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}  
+.btn5 {
+    color: white;
+    background-color: #FF556E;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #FF556E;
+    width: 150px;
+    height: 40px; 
+      
+}
+.btn6 {
+    color: black;
+    background-color:#E9EFF7;
+    border-radius: 25px 25px 25px 25px;
+    width: 150px;
+    height: 40px;
+}
+.texto2 {
+    color: grey;
+
+}
+.fa-regular {
+    color: rgb(93, 200, 93);
+}
+#enlace {
+    text-decoration: none;
+    text-decoration-color:none;
+    color: white;
+}
+#enlace:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
