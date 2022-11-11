@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-size: 50px;
+}
+
+.container-fluid {
+    background-color: #e9eff7;
+    margin: 0%;
+    padding: 10%;
+}
+
+.parte3 {
+    font-size: 25px;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    color: grey;
+}
+
+.pagina {
+    background-color: #f7fafd;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+}
+
+.center-buttons {
+    text-align: center;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.mac-button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #FF556E;
+    border-radius: 25px;
+    background-color: #FF556E;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    margin-right: 30px;
+}
+
+.mac-button:hover {
+    color: white;
+    box-shadow: 0 4px 16px #FF556E;
+    transition: all 0.2s ease;
+}
+.play-button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #FF556E;
+    border-radius: 25px;
+    background-color: #FF556E;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    margin-right: 30px;
+}
+
+.play-button:hover {
+    color: white;
+    box-shadow: 0 4px 16px #FF556E;
+    transition: all 0.2s ease;
+}
+
+.space {
+    margin: 30px;
+}
+
+.contact {
+justify-content: center;
+text-align: center;
+}
