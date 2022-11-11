@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: x-large;
+    margin-top: 3fr;
+    margin-bottom: 3fr;
+    width: 9fr;
+}
+#dos {
+    background-color: #E9EFF7;
+    color: grey;
+}
+#tres {
+    background-color:#E9EFF7 ;
+    color:grey;
+}
+.limi {
+    color: black;
+}
+#cinco {
+    background-color: #E9EFF7;
+    color: grey;
+}
+.btn1 {
+    border-radius: 25px 25px 25px 25px;
+    border-color:#FF556E ;
+    background-color: #FF556E;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+}
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+#enlace {
+    text-decoration: none;
+    text-decoration-color:none;
+    color: white;
+}
+#enlace:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
